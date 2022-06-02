@@ -329,5 +329,5 @@ for (let i = 0; i < animals.length; i++) {
 const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"]; //DONT TOUCH THIS LINE!
 
 for (let i = 0; i < people.length; i++) {
-  console.log(people[i].toUpperCase);
+  console.log(people[i].toUpperCase());
 }

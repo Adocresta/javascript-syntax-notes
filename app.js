@@ -58,3 +58,6 @@ const airplaneSeats = [
 ];
 
 console.log(airplaneSeats);
+
+// object literal
+
