@@ -28,7 +28,7 @@ const hen = {
 function yell(msg) {
   try {
     console.log(msg.toUpperCase().repeat(3));
-  } catch (Typeeroer) {
+  } catch (e) {
     console.error("please pass a string next time");
   }
 }
