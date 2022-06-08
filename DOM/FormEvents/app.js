@@ -23,16 +23,17 @@ const addTweet = (username, tweet) => {
 
 const btn = document.querySelector("#remove");
 btn.addEventListener("click", () => {
-  // get the list of li elements inside ol called tweetsContainer
-  const tweets = tweetsContainer.children;
+  //   // get the list of li elements inside ol called tweetsContainer
+  //   const tweets = tweetsContainer.children;
 
-  if (tweets.length === 0) {
-    console.error("No items to remove!");
-    return;
-  }
-  // list.removeChild(list.childNodes[list.length-1]);
-  if (tweets.length > 0) {
-    // items[items.length - 1].remove()
-    tweetsContainer.childNodes[tweets.length - 1].remove();
-  }
+  //   if (tweets.length === 0) {
+  //     console.error("No items to remove!");
+  //     return;
+  //   }
+  //   // list.removeChild(list.childNodes[list.length-1]);
+  //   if (tweets.length > 0) {
+  //     // items[items.length - 1].remove()
+  //     // tweetsContainer.childNodes[tweets.length - 1].remove();
+  // }
+  tweetsContainer.lastChild.remove();
 });
