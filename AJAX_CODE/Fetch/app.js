@@ -1,14 +1,18 @@
 fetch("https://swapi.dev/api/people/1/")
+  // response
   .then((res) => {
     console.log("RESOLVED!", res);
     return res.json();
   })
+  // print json of the response?
   .then((data) => {
     console.log(data);
   })
   .catch((e) => {
     console.log("ERROR!", e);
   });
+
+// * Multiple requests below unlike the xml it's much more linear and readable
 
 // fetch("https://swapi.dev/api/people/1/")
 //   .then((res) => {
