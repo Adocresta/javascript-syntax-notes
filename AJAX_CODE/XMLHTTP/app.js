@@ -7,6 +7,9 @@ req.onload = function () {
   // parsing a json file to have a javascript object
   const data = JSON.parse(this.responseText);
   console.log(data.name, data.height);
+
+  // if we need to request another data we need to nest it here which makes it ridiculous!
+  // code here
 };
 
 req.onerror = function () {
